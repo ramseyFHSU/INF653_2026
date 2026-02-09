@@ -1,0 +1,162 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  padding-bottom: 70px; /* adjust if footer height changes */
+}
+
+/* Header */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main area spacing */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+/* Form (matches your real classes in form.php) */
+#enterNumber {
+  margin: 0 0 15px;
+}
+
+.main-entry__form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.input-box,
+.main-entry__select {
+  width: min(420px, 90%);
+  padding: 10px 12px;
+  font-size: 18px;
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+
+.main-entry {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.main-entry:hover {
+  background: #0056b3;
+}
+
+/* Flashcards layout */
+.main-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* Card Flip - stays showing result on click/tab (focus) */
+.card {
+  width: 100%;
+  height: 130px;
+  perspective: 1000px;
+  cursor: pointer;
+  outline: none;
+}
+
+.card:focus-visible {
+  outline: 3px solid #007bff;
+  outline-offset: 4px;
+  border-radius: 12px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+/* Flip on hover (desktop) + keep flipped on focus (click/tap/tab) */
+.card:hover .card-inner,
+.card:focus .card-inner,
+.card:focus-within .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  inset: 0;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  border-radius: 12px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden; /* Safari fix */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.card-front {
+  background: white;
+  color: #111;
+}
+
+.card-back {
+  background: #007bff;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.footer a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
