@@ -53,7 +53,7 @@ $city = filter_input(INPUT_GET, "city", FILTER_UNSAFE_RAW);
                 $query = 'INSERT INTO city
                           (Name, CountryCode, District, Population)
                           VALUES
-                          (:newCity, countryCode, district, population)';
+                          (:newCity, :countryCode, :district, :population)';
                 $statement = $db->prepare($query);
                 $statement->bindValue(":newCity", $newCity);
                 $statement->bindValue(":countryCode", $countryCode);
