@@ -1,0 +1,2 @@
+This is test file named file1
+Hello, this is a test to write file!Appended Data

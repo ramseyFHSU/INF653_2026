@@ -1,0 +1,7 @@
+1e789b0d-7883-4464-81eb-26c6dedb65de	[2025-03-26 09:57:38]	GET request to /
+45cff8bd-ee6a-467d-b632-a4267e2b9a7c	[2025-03-26 09:57:38]	GET request to /assets/styles.css
+ee75f4c0-e49b-4872-a9ad-a8f5d92089c3	[2025-03-26 09:57:38]	GET request to /assets/logo.png
+cbfa6819-3ce3-4d93-a415-970a34ac3d22	[2025-03-26 09:57:38]	GET request to /assets/script.js
+8856becb-3a40-41b5-84cc-6d89ddf6e4d1	[2025-03-26 09:57:39]	GET request to /favicon.ico
+b2f6f20b-ed77-44cf-a057-85b77fa0baa5	[2025-03-26 10:00:18]	GET request to /l
+2d97a3b2-9345-4a54-a95c-fdc26649a056	[2025-03-26 10:00:18]	GET request to /assets/styles.css
