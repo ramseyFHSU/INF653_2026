@@ -1,0 +1,11 @@
+4c3c53a6-470c-406f-940b-76a9cdd1f478 	 [2025-03-27 12:03:50] 	 GET request to /
+5018125e-3b7a-43d5-a825-242ef89ac53b 	 [2025-03-27 12:03:50] 	 GET request to /assets/styles.css
+a472397a-0bb3-444a-87b5-e8cc34d645cf 	 [2025-03-27 12:03:50] 	 GET request to /assets/logo.png
+baf25847-7724-417a-9d7e-e2a3df0b17ec 	 [2025-03-27 12:03:50] 	 GET request to /assets/script.js
+97c51cfb-2275-4ff2-8b98-a5b848ebc3ae 	 [2025-03-27 12:03:51] 	 GET request to /about.html
+50665042-dece-4a24-9e99-86066030d11f 	 [2025-03-27 12:03:51] 	 GET request to /assets/styles.css
+da89e076-74da-4a42-b6f6-ddc17330e235 	 [2025-03-27 12:03:52] 	 GET request to /
+6e769c7a-6602-4f1d-af63-b30d875b7875 	 [2025-03-27 12:03:52] 	 GET request to /assets/styles.css
+183e1721-f7ff-4e16-b0cd-0520094f2db8 	 [2025-03-27 12:03:52] 	 GET request to /assets/logo.png
+b5c9937f-3cd5-417b-a3b9-58ad5155bc77 	 [2025-03-27 12:03:52] 	 GET request to /assets/script.js
+c82aa822-7428-44fe-8138-fc0507ec78c1 	 [2025-03-27 12:04:38] 	 GET request to /data/sample.json
